@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { FaFacebookF, FaTwitter, FaLinkedinIn } from 'react-icons/fa'
 import { motion } from "framer-motion";
 import { fadeIn, textVariant } from "../utils/motion";
@@ -142,13 +142,13 @@ const Footer = () => {
               variants={fadeIn('right', 1.0)}
               className="text-gray-600 text-sm"
             >
-              Copyright © {new Date().getFullYear()} codetutorbd.com
+              Copyright © {new Date().getFullYear()}
             </motion.p>
             <motion.p 
               variants={fadeIn('left', 1.0)}
               className="text-gray-600 text-sm"
             >
-              Created by Md Al Mamun
+              Created by Siam Ahmed
             </motion.p>
           </motion.div>
         </motion.div>

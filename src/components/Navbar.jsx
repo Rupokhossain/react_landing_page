@@ -1,7 +1,8 @@
-import React, { useState } from 'react'
+
 import { HiMenu, HiX } from 'react-icons/hi'
 import { motion } from "framer-motion";
 import { fadeIn} from "../utils/motion";
+import { useState } from 'react';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
